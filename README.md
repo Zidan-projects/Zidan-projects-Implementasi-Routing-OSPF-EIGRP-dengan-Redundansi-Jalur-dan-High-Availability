@@ -8,7 +8,7 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ## 🛠️ Fitur & Teknologi yang Digunakan
 * **OSPF Multi-Area / Single-Area:** Pertukaran rute berbasis *link-state* dengan optimasi *Router-ID* dan *Passive Interface*.
-* **EIGRP (AS 100):** Pertukaran rute cepat berbasis algoritma DUAL (*Diffusing Update Algorithm*) dengan dukungan *unequal-cost load balancing*.
+* **EIGRP :** Pertukaran rute cepat berbasis algoritma DUAL (*Diffusing Update Algorithm*) dengan dukungan *unequal-cost load balancing*.
 * **Mutual Route Redistribution + Route-Map Tagging:** Pertukaran informasi rute dua arah antara OSPF dan EIGRP menggunakan penandaan rute (*route tagging*) untuk mencegah rute berputar kembali (*routing loop*).
 * **HSRP (Hot Standby Router Protocol):** Virtualisasi *default gateway* sehingga perpindahan router utama (*Active*) ke cadangan (*Standby*) berjalan otomatis di bawah 3 detik.
 * **EtherChannel (LACP) & Rapid-PVST+:** Agregasi tautan dan pencegahan *loop* pada lapisan *switching* (Layer 2).
