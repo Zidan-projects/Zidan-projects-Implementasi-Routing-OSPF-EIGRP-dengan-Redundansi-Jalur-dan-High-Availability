@@ -20,17 +20,9 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ```text
 ├── 📁 topology/
-│   ├── project-ospf-eigrp-ha.pkt       # File simulasi Cisco Packet Tracer
-│   └── topology-diagram.png            # Gambar diagram arsitektur jaringan
+│   └── topology cisco.png            # Gambar diagram arsitektur jaringan
 ├── 📁 configs/
-│   ├── R1-OSPF.txt                     # Konfigurasi lengkap R1-OSPF
-│   ├── R2-ASBR-1.txt                   # Konfigurasi lengkap R2-ASBR-1
-│   ├── R3-ASBR-2.txt                   # Konfigurasi lengkap R3-ASBR-2
-│   ├── R4-EIGRP.txt                    # Konfigurasi lengkap R4-EIGRP
-│   └── R5-EIGRP.txt                    # Konfigurasi lengkap R5-EIGRP
 ├── 📁 docs/
-│   ├── Laporan-Akhir-Proyek.pdf        # Dokumentasi analisis & pengujian lengkap
-│   └── Presentasi-Proyek.pptx          # Slide presentasi proyek
 └── 📄 README.md                        # Dokumentasi utama repositori (file ini)
 ```
 
