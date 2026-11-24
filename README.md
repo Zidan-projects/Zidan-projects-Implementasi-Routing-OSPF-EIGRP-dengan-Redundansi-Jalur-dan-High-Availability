@@ -16,9 +16,22 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ---
 
-##📂 Struktur Repositori
+## 📂 Struktur Repositori
 
-├── topology/           # Berisi file Cisco Packet Tracer (.pkt) atau GNS3 / EVE-NG
-├── configs/            # File teks berisi konfigurasi CLI tiap router dan switch
-├── documentation/      # Proposal, laporan, dan dokumentasi lengkap proyek (.pdf / .docx)
-└── README.md           # Dokumentasi proyek (file ini)
+```text
+├── 📁 topology/
+│   ├── project-ospf-eigrp-ha.pkt       # File simulasi Cisco Packet Tracer
+│   └── topology-diagram.png            # Gambar diagram arsitektur jaringan
+├── 📁 configs/
+│   ├── R1-OSPF.txt                     # Konfigurasi lengkap R1-OSPF
+│   ├── R2-ASBR-1.txt                   # Konfigurasi lengkap R2-ASBR-1
+│   ├── R3-ASBR-2.txt                   # Konfigurasi lengkap R3-ASBR-2
+│   ├── R4-EIGRP.txt                    # Konfigurasi lengkap R4-EIGRP
+│   └── R5-EIGRP.txt                    # Konfigurasi lengkap R5-EIGRP
+├── 📁 docs/
+│   ├── Laporan-Akhir-Proyek.pdf        # Dokumentasi analisis & pengujian lengkap
+│   └── Presentasi-Proyek.pptx          # Slide presentasi proyek
+└── 📄 README.md                        # Dokumentasi utama repositori (file ini)
+```
+
+---
