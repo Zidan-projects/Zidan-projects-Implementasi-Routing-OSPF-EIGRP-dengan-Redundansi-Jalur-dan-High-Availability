@@ -19,7 +19,7 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ```text
 ├── 📁 topology/
-│   └── topology cisco.png            # Gambar diagram arsitektur jaringan
+│   └── topologi cisco.png            # Gambar diagram arsitektur jaringan
 ├── 📁 configs/
 ├── 📁 docs/
 └── 📄 README.md                        # Dokumentasi utama repositori (file ini)
