@@ -16,7 +16,7 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ---
 
-📂 Struktur Repositori
+##📂 Struktur Repositori
 
 ├── topology/           # Berisi file Cisco Packet Tracer (.pkt) atau GNS3 / EVE-NG
 ├── configs/            # File teks berisi konfigurasi CLI tiap router dan switch
