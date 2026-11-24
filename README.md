@@ -16,14 +16,9 @@ Repositori ini berisi dokumentasi, skema perancangan, dan skrip konfigurasi untu
 
 ---
 
-## 🛠️ Topologi Jaringan
+📂 Struktur Repositori
 
-*(Gambaran atau diagram topologi dapat diletakkan di sini)*
-```text
-[ Core Router OSPF ] <--- (Redistribution) ---> [ Core Router EIGRP ]
-        |                                              |
-   (Area 0)                                      (AS 100)
-        |                                              |
-[ Distribution / Access Switches + HSRP / FHRP Redundancy ]
-        |
-[ End-User / Client Subnets ]
+├── topology/           # Berisi file Cisco Packet Tracer (.pkt) atau GNS3 / EVE-NG
+├── configs/            # File teks berisi konfigurasi CLI tiap router dan switch
+├── documentation/      # Proposal, laporan, dan dokumentasi lengkap proyek (.pdf / .docx)
+└── README.md           # Dokumentasi proyek (file ini)
